@@ -1,0 +1,83 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color: rgb(47, 165, 154);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+.i-button{
+    width: 6rem;
+    height: 2rem;
+}
+.i-icons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.i-icons>*{
+    transform: scale(1.0);
+}
+.i-icons>*:hover{
+    cursor: pointer;
+    color: rgb(47, 165, 154);
+}
+
+
+
+
+.i-right{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Moves image to the right */
+    align-items: center; /* Centers image vertically */
+    padding: 0;
+}
+
+.i-right>:nth-child(1) {
+    width: 100%; /* Adjust size as needed */
+    max-width: 300px; /* Prevents image from being too large */
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10rem;
+    
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: rgb(47, 165, 154);
+    
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+
+
+}
