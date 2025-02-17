@@ -1,0 +1,10 @@
+.card{
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
