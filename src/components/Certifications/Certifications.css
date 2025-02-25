@@ -1,0 +1,73 @@
+.certifications {
+    width: 100%;
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(187, 228, 224);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .section1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .section1 > span {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1rem;
+    
+}
+
+.section1 > span:nth-child(2) {
+    color: rgb(47, 165, 154);
+    
+    
+}
+  
+  hr {
+    width: 50%;
+    margin: 10px auto;
+    border: none;
+    border-top: 2px solid rgb(47, 165, 154);
+    
+  }
+  
+  .section2 {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .section2 span {
+    margin: 3px 0;
+    font-weight: 500;
+  }
+  
+  .section2 span:first-child {
+    font-weight: bold;
+    color: black;
+  }
+  .blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: rgb(47, 165, 154);
+    z-index: -9;
+    top: 50%;
+    left: -30%;
+    filter: blur(35px);
+}
+  
+  

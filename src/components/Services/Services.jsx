@@ -1,8 +1,5 @@
 import React from "react";
 import "./Services.css";
-
-
-
 const Services = () => {
   return (
     <div className="services-container">
@@ -12,7 +9,7 @@ const Services = () => {
       {/* Main Content */}
       <div className="services">
         <div className="awesome">
-          <span>Professional</span>
+          <span>Professional</span> 
 
           <span>Journey</span>
           
