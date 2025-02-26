@@ -1,0 +1,78 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  margin: auto;
+}
+
+.section2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section2 span:first-child {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  gap: 5rem;
+}
+.section2 span:last-child {
+  color: rgb(47, 165, 154);
+  font-weight: bold;
+  font-size: 30px;
+  gap: 5rem;
+}
+
+/* Flex container for references */
+.references-container {
+  display: flex;
+  justify-content: space-around; /* Distribute references evenly */
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Individual reference box */
+.section3 {
+  background: rgb(187, 228, 224);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Each reference takes 30% of the screen */
+  text-align: center;
+  min-width: 250px; /* Ensures boxes don't shrink too much */
+}
+
+.section3 span {
+  font-size: 16px;
+  color: black;
+  display: block;
+  margin: 5px 0;
+}
+
+.section3 span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .references-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section3 {
+    width: 90%; /* Full width on small screens */
+  }
+}

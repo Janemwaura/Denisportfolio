@@ -3,14 +3,14 @@
     position: relative;
     max-width: 600px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px; 
     background: rgb(187, 228, 224);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
-  .section1 {
+  .sectionA {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -18,7 +18,7 @@
     flex-direction: column;
     gap: 5px;
   }
-  .section1 > span {
+  .sectionA > span {
     font-size: 30px;
     color: black;
     font-weight: bold;
@@ -27,7 +27,7 @@
     
 }
 
-.section1 > span:nth-child(2) {
+.sectionA > span:nth-child(2) {
     color: rgb(47, 165, 154);
     
     
@@ -41,7 +41,7 @@
     
   }
   
-  .section2 {
+  .sectionB {
     font-size: 18px;
     color: black;
     display: flex;
@@ -49,12 +49,12 @@
     gap: 5px;
   }
   
-  .section2 span {
+  .sectionB span {
     margin: 3px 0;
     font-weight: 500;
   }
   
-  .section2 span:first-child {
+  .sectionB span:first-child {
     font-weight: bold;
     color: black;
   }
