@@ -6,7 +6,7 @@ const Services = () => {
       {/* Left Sidebar */}
       
 
-      {/* Main Content */}
+      {/* Main Content */} 
       <div className="services">
         <div className="awesome">
           <span>Professional</span> 

@@ -2,9 +2,9 @@
     width: 100%;
     position: relative;
     max-width: 600px;
-    margin: 20px auto;
-    padding: 20px; 
-    background: rgb(187, 228, 224);
+    margin: 0 auto;
+    padding: 0; 
+    background: #0A0F29;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -20,7 +20,7 @@
   }
   .sectionA > span {
     font-size: 30px;
-    color: black;
+    color: white;
     font-weight: bold;
     display: block;
     margin-bottom: 1rem;
@@ -28,7 +28,7 @@
 }
 
 .sectionA > span:nth-child(2) {
-    color: rgb(47, 165, 154);
+    color: white;
     
     
 }
@@ -43,7 +43,7 @@
   
   .sectionB {
     font-size: 18px;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -56,7 +56,7 @@
   
   .sectionB span:first-child {
     font-weight: bold;
-    color: black;
+    color: white;
   }
   .blur{
     position: absolute;

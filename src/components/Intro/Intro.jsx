@@ -2,13 +2,13 @@ import React from 'react';
 import './Intro.css';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa'; 
 import profile from '/home/janewmwaura/personalprojectportfolio/Denisportfolio/portfolio-starter/src/img/Dennis1.png';
 const Intro = () => {
   return (
     <div className="intro">
         <div className="i-left">
-            <div className="i-name">
+            <div className="i-name">  
                 <span>Hello I Am</span>
                 <span>Dennis Muchiri</span>
                 <span>Betty was a creature of habit and she thought she liked it that way. 

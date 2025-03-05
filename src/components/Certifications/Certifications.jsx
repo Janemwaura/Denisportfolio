@@ -10,8 +10,8 @@ const Certifications = () => {
       <hr />
       <div className="sectionB">
       <span>Bachelor of Commerce - Finance option</span>
-      <span>Kabarak University</span>
-      <span>October 2014 - December 2017</span>
+      <span>Kabarak University</span> 
+      <span>October 2014 - December 2017</span> 
     </div>
     <div className="sectionB">
       <span>CPA K </span>

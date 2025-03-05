@@ -12,7 +12,7 @@ const References = () => {
       <hr />
 
       <div className="references-container">
-        {/* Reference 1 */}
+        {/* Reference 1 */} 
         <div className="section3">
           <span>John M Guthiga</span> 
           <span>Ass Manager Recon- Social Protection</span>

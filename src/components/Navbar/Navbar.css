@@ -1,13 +1,16 @@
 .n-wrapper{
     height: 10vh;
+    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
+    background-color: #0A0F29;
 }
 .n-left{
     flex: 1;
     align-items: center;
     display: flex;
     gap: 2rem;
+    color: white;
 }
 .n-name{
     font-size: 1.3rem;
@@ -22,6 +25,7 @@
 }
 .n-list{
     flex: 10;
+    color: white;
 }
 .n-list>ul{
     display: flex;
@@ -34,4 +38,5 @@
 }
 .n-button{
     flex: 2;
+    
 }

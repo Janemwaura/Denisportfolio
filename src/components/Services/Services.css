@@ -1,13 +1,14 @@
 .services-container {
     position: relative;
     display: flex;
-    
+    background-color: #0A0F29;
     font-family: 'Arial', sans-serif;
     
 }
 /* Main Content */
 .services {
     display: flex;
+    background-color: #0A0F29;
     height: auto;
     min-height: 100vh;
     flex-direction: column; /* Ensures a single unified section */
@@ -36,7 +37,7 @@
 
 .awesome > span {
     font-size: 3rem;
-    color: black;
+    color: white;
     font-weight: bold;
     display: block;
     margin-bottom: 1rem;
@@ -62,7 +63,7 @@
 .experience {
     position: relative;
     flex: 1;
-    background: white;
+    background: #0A0F29;
     padding-top: 0rem;
     margin-top: 0rem;
     border-radius: 10px;
@@ -79,7 +80,7 @@
 
 .job h3 {
     font-size: 1.5rem;
-    color: black;
+    color: white;
 }
 .thin-line {
     width: 100%;
@@ -92,13 +93,13 @@
 
 .job p {
     font-size: 1rem;
-    color: black;
+    color: white;
 }
 
 .job ul {
     padding-left: 1.2rem;
     font-size: 0.9rem;
-    color: black;
+    color: white;
 }
 .blur {
     position: absolute;

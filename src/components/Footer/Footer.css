@@ -1,0 +1,31 @@
+
+    .footer {
+        width: 100%;
+        background-color: #0A0F29; /* Dark background */
+        color: white; /* White text */
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+    
+    .footer1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .footer2 {
+        font-size: 1rem;
+        color: white;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .footer1 {
+            font-size: 1.2rem;
+        }
+    
+        .footer2 {
+            font-size: 0.9rem;
+        }
+    }
+    

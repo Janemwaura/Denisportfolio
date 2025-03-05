@@ -4,6 +4,7 @@ import Intro from '/home/janewmwaura/personalprojectportfolio/Denisportfolio/por
 import Services from '/home/janewmwaura/personalprojectportfolio/Denisportfolio/portfolio-starter/src/components/Services/Services.jsx';
 import Certifications from './components/Certifications/Certifications.jsx';
 import References from './components/References/References.jsx';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
      <Services/>
      <Certifications/>
      <References/>
+     <Footer/>
     </div>
   );
 }

@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #0A0F29;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 90%;
@@ -20,13 +20,13 @@
 }
 
 .section2 span:first-child {
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 30px;
   gap: 5rem;
 }
 .section2 span:last-child {
-  color: rgb(47, 165, 154);
+  color: white;
   font-weight: bold;
   font-size: 30px;
   gap: 5rem;
@@ -43,7 +43,7 @@
 
 /* Individual reference box */
 .section3 {
-  background: rgb(187, 228, 224);
+  background: #0A0F29;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@
 
 .section3 span {
   font-size: 16px;
-  color: black;
+  color: white;
   display: block;
   margin: 5px 0;
 }
@@ -62,7 +62,7 @@
 .section3 span:first-child {
   font-size: 18px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 /* Responsive styling */
